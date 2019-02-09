@@ -1,8 +1,12 @@
 import React from 'react'
+import Button from './Button'
 
 function Main(){
   return (
-    <div>Main content</div>
+    <div>
+      <div>Main content</div>
+      <Button value="Click me" />
+    </div>
   )
 }
 
