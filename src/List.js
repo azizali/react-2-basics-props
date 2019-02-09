@@ -4483,7 +4483,11 @@ export default function(){
         </tr>
       </thead>
       <tbody>
-        <Car item={json[0]}/>
+        {
+          json.map((item, index)=>{
+            return <Car key={index} item={item}/>
+          })
+        }
       </tbody>
     </table>
   )
