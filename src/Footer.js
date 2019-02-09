@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer(){
   return (
-    <div>Copyrights &copy;</div>
+    <div className="border p-3">Copyrights &copy;</div>
   )
 }
 
